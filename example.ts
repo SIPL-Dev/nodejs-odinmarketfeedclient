@@ -26,7 +26,7 @@ async function basicExample() {
   };
 
   try {
-    await client.connect('172.25.100.43', 4509, false, 'YOUR_USER_ID', '');
+    await client.connect('YOUR-HOST-IP', 4509, false, 'YOUR_USER_ID', '');
     
     console.log('💤 Keeping connection alive for 60 seconds...');
     await new Promise(resolve => setTimeout(resolve, 60000));
