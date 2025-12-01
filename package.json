@@ -1,0 +1,49 @@
+{
+  "name": "odin-market-feed-client",
+  "version": "1.0.1",
+  "description": "A TypeScript WebSocket client for ODIN Market Feed with real-time market data streaming",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "odin",
+    "market",
+    "feed",
+    "websocket",
+    "stock",
+    "trading",
+    "market-data",
+    "real-time",
+    "touchline"
+  ],
+  "author": "Synapsewave Innovation Pvt Ltd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SIPL-Dev/odinmarketfeedclientjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SIPL-Dev/odinmarketfeedclientjs/issues"
+  },
+  "homepage": "https://github.com/SIPL-Dev/odinmarketfeedclientjs#readme",
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/ws": "^8.5.9",
+    "typescript": "^5.3.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
