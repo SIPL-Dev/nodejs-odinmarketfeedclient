@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SIPL-Dev/odinmarketfeedclientjs.git"
+    "url": "git+https://github.com/SIPL-Dev/nodejs-odinmarketfeedclient.git"
   },
   "bugs": {
-    "url": "https://github.com/SIPL-Dev/odinmarketfeedclientjs/issues"
+    "url": "https://github.com/SIPL-Dev/nodejs-odinmarketfeedclient/issues"
   },
-  "homepage": "https://github.com/SIPL-Dev/odinmarketfeedclientjs#readme",
+  "homepage": "https://github.com/SIPL-Dev/nodejs-odinmarketfeedclient#readme",
   "dependencies": {
     "ws": "^8.14.2"
   },
